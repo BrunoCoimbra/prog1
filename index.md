@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Exercícios de Programação 1
 
-You can use the [editor on GitHub](https://github.com/BrunoCoimbra/prog1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Tipos
+Escreva uma função que interprete variáveis declaradas em um arquivo, e retorne um dicionário (dict) com os valores e tipos compatíveis.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Exemplo:
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Para o arquivo
+```
+string: nome = Eduardo
+int: idade = 30
+float: salario = 1000
+string: telefone = 5552231273
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+a função deve retornar o dicionário
+```python
+{
+    "nome": "Eduardo",
+    "idade": 30,
+    "salario": 1000.0,
+    "telefone": "5552231273"
+}
+```
 
-### Jekyll Themes
+*__Bonus 1__: verificar compatibilidade do valor com o tipo. e.g. um int não pode receber uma letra.*
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BrunoCoimbra/prog1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+*__Bonus 2__: Ignorar linhas vazias ou começando com '#'.*
