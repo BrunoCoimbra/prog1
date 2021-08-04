@@ -1,0 +1,6 @@
+# Dados do Eduardo
+
+string: nome = Eduardo
+int: idade = trinta
+float: salario = 1000
+string: telefone = 5552231273
