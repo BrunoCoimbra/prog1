@@ -1,6 +1,6 @@
 # Exercícios de Programação 1
 
-## Tipos
+## Problema 1: Tipos
 Escreva uma função que interprete variáveis declaradas em um arquivo, e retorne um dicionário (dict) com os valores e tipos compatíveis.
 
 Exemplo:
